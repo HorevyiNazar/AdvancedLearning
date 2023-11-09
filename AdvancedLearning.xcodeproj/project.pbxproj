@@ -8,21 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		ED5324AF2AFD638C00817B3D /* AdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5324AE2AFD638C00817B3D /* AdvancedLearningApp.swift */; };
-		ED5324B12AFD638C00817B3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5324B02AFD638C00817B3D /* ContentView.swift */; };
 		ED5324B32AFD638E00817B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5324B22AFD638E00817B3D /* Assets.xcassets */; };
 		ED5324B62AFD638E00817B3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5324B52AFD638E00817B3D /* Preview Assets.xcassets */; };
-		ED5324B82AFD638E00817B3D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5324B72AFD638E00817B3D /* Persistence.swift */; };
-		ED5324BB2AFD638E00817B3D /* AdvancedLearning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED5324B92AFD638E00817B3D /* AdvancedLearning.xcdatamodeld */; };
+		ED5324C22AFD63F100817B3D /* ViewModifierBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5324C12AFD63F100817B3D /* ViewModifierBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED5324AB2AFD638C00817B3D /* AdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5324AE2AFD638C00817B3D /* AdvancedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearningApp.swift; sourceTree = "<group>"; };
-		ED5324B02AFD638C00817B3D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED5324B22AFD638E00817B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5324B52AFD638E00817B3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		ED5324B72AFD638E00817B3D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		ED5324BA2AFD638E00817B3D /* AdvancedLearning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AdvancedLearning.xcdatamodel; sourceTree = "<group>"; };
+		ED5324C12AFD63F100817B3D /* ViewModifierBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				ED5324AE2AFD638C00817B3D /* AdvancedLearningApp.swift */,
-				ED5324B02AFD638C00817B3D /* ContentView.swift */,
+				ED5324C12AFD63F100817B3D /* ViewModifierBootCamp.swift */,
 				ED5324B22AFD638E00817B3D /* Assets.xcassets */,
-				ED5324B72AFD638E00817B3D /* Persistence.swift */,
-				ED5324B92AFD638E00817B3D /* AdvancedLearning.xcdatamodeld */,
 				ED5324B42AFD638E00817B3D /* Preview Content */,
 			);
 			path = AdvancedLearning;
@@ -143,10 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED5324B82AFD638E00817B3D /* Persistence.swift in Sources */,
-				ED5324B12AFD638C00817B3D /* ContentView.swift in Sources */,
+				ED5324C22AFD63F100817B3D /* ViewModifierBootCamp.swift in Sources */,
 				ED5324AF2AFD638C00817B3D /* AdvancedLearningApp.swift in Sources */,
-				ED5324BB2AFD638E00817B3D /* AdvancedLearning.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,19 +344,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		ED5324B92AFD638E00817B3D /* AdvancedLearning.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				ED5324BA2AFD638E00817B3D /* AdvancedLearning.xcdatamodel */,
-			);
-			currentVersion = ED5324BA2AFD638E00817B3D /* AdvancedLearning.xcdatamodel */;
-			path = AdvancedLearning.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = ED5324A32AFD638C00817B3D /* Project object */;
 }
