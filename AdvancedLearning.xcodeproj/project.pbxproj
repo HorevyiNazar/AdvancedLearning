@@ -11,6 +11,7 @@
 		ED5324B32AFD638E00817B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5324B22AFD638E00817B3D /* Assets.xcassets */; };
 		ED5324B62AFD638E00817B3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5324B52AFD638E00817B3D /* Preview Assets.xcassets */; };
 		ED5324C22AFD63F100817B3D /* ViewModifierBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5324C12AFD63F100817B3D /* ViewModifierBootCamp.swift */; };
+		ED88E1722AFE7191007F7C8C /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ED5324B22AFD638E00817B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5324B52AFD638E00817B3D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED5324C12AFD63F100817B3D /* ViewModifierBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootCamp.swift; sourceTree = "<group>"; };
+		ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				ED5324AE2AFD638C00817B3D /* AdvancedLearningApp.swift */,
 				ED5324C12AFD63F100817B3D /* ViewModifierBootCamp.swift */,
+				ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */,
 				ED5324B22AFD638E00817B3D /* Assets.xcassets */,
 				ED5324B42AFD638E00817B3D /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED88E1722AFE7191007F7C8C /* ButtonStyleBootcamp.swift in Sources */,
 				ED5324C22AFD63F100817B3D /* ViewModifierBootCamp.swift in Sources */,
 				ED5324AF2AFD638C00817B3D /* AdvancedLearningApp.swift in Sources */,
 			);
