@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ED1728FD2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1728FC2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift */; };
+		ED18780B2B00F37D007C20D4 /* CustomShapesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18780A2B00F37D007C20D4 /* CustomShapesBootCamp.swift */; };
 		ED5324AF2AFD638C00817B3D /* AdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5324AE2AFD638C00817B3D /* AdvancedLearningApp.swift */; };
 		ED5324B32AFD638E00817B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5324B22AFD638E00817B3D /* Assets.xcassets */; };
 		ED5324B62AFD638E00817B3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5324B52AFD638E00817B3D /* Preview Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		ED1728FC2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootCamp.swift; sourceTree = "<group>"; };
+		ED18780A2B00F37D007C20D4 /* CustomShapesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootCamp.swift; sourceTree = "<group>"; };
 		ED5324AB2AFD638C00817B3D /* AdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5324AE2AFD638C00817B3D /* AdvancedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearningApp.swift; sourceTree = "<group>"; };
 		ED5324B22AFD638E00817B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */,
 				ED1728FC2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift */,
 				ED57E7882AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift */,
+				ED18780A2B00F37D007C20D4 /* CustomShapesBootCamp.swift */,
 				ED5324B22AFD638E00817B3D /* Assets.xcassets */,
 				ED5324B42AFD638E00817B3D /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED88E1722AFE7191007F7C8C /* ButtonStyleBootcamp.swift in Sources */,
+				ED18780B2B00F37D007C20D4 /* CustomShapesBootCamp.swift in Sources */,
 				ED5324C22AFD63F100817B3D /* ViewModifierBootCamp.swift in Sources */,
 				ED1728FD2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift in Sources */,
 				ED5324AF2AFD638C00817B3D /* AdvancedLearningApp.swift in Sources */,
