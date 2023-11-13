@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED0A88112B0267F50074A696 /* AnimatableDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A88102B0267F50074A696 /* AnimatableDataBootCamp.swift */; };
 		ED1728FD2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1728FC2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift */; };
 		ED18780B2B00F37D007C20D4 /* CustomShapesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18780A2B00F37D007C20D4 /* CustomShapesBootCamp.swift */; };
 		ED18780D2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18780C2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED0A88102B0267F50074A696 /* AnimatableDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDataBootCamp.swift; sourceTree = "<group>"; };
 		ED1728FC2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootCamp.swift; sourceTree = "<group>"; };
 		ED18780A2B00F37D007C20D4 /* CustomShapesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootCamp.swift; sourceTree = "<group>"; };
 		ED18780C2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootCamp.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				ED57E7882AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift */,
 				ED18780A2B00F37D007C20D4 /* CustomShapesBootCamp.swift */,
 				ED18780C2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift */,
+				ED0A88102B0267F50074A696 /* AnimatableDataBootCamp.swift */,
 				ED5324B22AFD638E00817B3D /* Assets.xcassets */,
 				ED5324B42AFD638E00817B3D /* Preview Content */,
 			);
@@ -156,6 +159,7 @@
 				ED18780B2B00F37D007C20D4 /* CustomShapesBootCamp.swift in Sources */,
 				ED5324C22AFD63F100817B3D /* ViewModifierBootCamp.swift in Sources */,
 				ED1728FD2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift in Sources */,
+				ED0A88112B0267F50074A696 /* AnimatableDataBootCamp.swift in Sources */,
 				ED5324AF2AFD638C00817B3D /* AdvancedLearningApp.swift in Sources */,
 				ED18780D2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift in Sources */,
 				ED57E7892AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift in Sources */,
