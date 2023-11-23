@@ -20,6 +20,10 @@
 		ED57E7892AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57E7882AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift */; };
 		ED88E1722AFE7191007F7C8C /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */; };
 		EDA2AC802B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2AC7F2B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift */; };
+		EDDACA4B2B0F9D620089C94D /* UnitTestingBootCampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDACA4A2B0F9D620089C94D /* UnitTestingBootCampView.swift */; };
+		EDDACA4D2B0F9F440089C94D /* UnitTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDACA4C2B0F9F440089C94D /* UnitTestingViewModel.swift */; };
+		EDDACA552B0FA5D00089C94D /* AdvancedLearning_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDACA542B0FA5D00089C94D /* AdvancedLearning_Tests.swift */; };
+		EDDACA5C2B0FA8360089C94D /* UnitTestingBootCampViewModel_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDACA5B2B0FA8360089C94D /* UnitTestingBootCampViewModel_Tests.swift */; };
 		EDE07BC12B0D1E1F0086E4E0 /* ProtocolsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE07BC02B0D1E1F0086E4E0 /* ProtocolsBootCamp.swift */; };
 		EDE386702B0549570076837B /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE3866F2B0549570076837B /* AppTabBarView.swift */; };
 		EDE386722B054AA30076837B /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE386712B054AA30076837B /* CustomTabBarView.swift */; };
@@ -32,6 +36,16 @@
 		EDECBCF82B03EBAC00AA66A0 /* GeometryPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECBCF72B03EBAC00AA66A0 /* GeometryPreferenceKey.swift */; };
 		EDECBCFA2B03EEA000AA66A0 /* ScrollViewOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDECBCF92B03EEA000AA66A0 /* ScrollViewOffsetPreferenceKey.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDDACA562B0FA5D00089C94D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5324A32AFD638C00817B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5324AA2AFD638C00817B3D;
+			remoteInfo = AdvancedLearning;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		ED0A88102B0267F50074A696 /* AnimatableDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDataBootCamp.swift; sourceTree = "<group>"; };
@@ -48,6 +62,11 @@
 		ED57E7882AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeomteryEffectBootCamp.swift; sourceTree = "<group>"; };
 		ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 		EDA2AC7F2B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootCamp.swift; sourceTree = "<group>"; };
+		EDDACA4A2B0F9D620089C94D /* UnitTestingBootCampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootCampView.swift; sourceTree = "<group>"; };
+		EDDACA4C2B0F9F440089C94D /* UnitTestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel.swift; sourceTree = "<group>"; };
+		EDDACA522B0FA5D00089C94D /* AdvancedLearning_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedLearning_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDDACA542B0FA5D00089C94D /* AdvancedLearning_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearning_Tests.swift; sourceTree = "<group>"; };
+		EDDACA5B2B0FA8360089C94D /* UnitTestingBootCampViewModel_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootCampViewModel_Tests.swift; sourceTree = "<group>"; };
 		EDE07BC02B0D1E1F0086E4E0 /* ProtocolsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsBootCamp.swift; sourceTree = "<group>"; };
 		EDE3866F2B0549570076837B /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
 		EDE386712B054AA30076837B /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
@@ -69,6 +88,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDDACA4F2B0FA5D00089C94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				ED5324AD2AFD638C00817B3D /* AdvancedLearning */,
+				EDDACA532B0FA5D00089C94D /* AdvancedLearning_Tests */,
 				ED5324AC2AFD638C00817B3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				ED5324AB2AFD638C00817B3D /* AdvancedLearning.app */,
+				EDDACA522B0FA5D00089C94D /* AdvancedLearning_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +133,7 @@
 				EDA2AC7F2B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift */,
 				EDE07BC02B0D1E1F0086E4E0 /* ProtocolsBootCamp.swift */,
 				ED4858B12B0E6ADB001A9844 /* DependencyInjectionBootCamp.swift */,
+				EDDACA492B0F9D4E0089C94D /* UnitTesting */,
 				EDE3866E2B0549410076837B /* CustomTabBar */,
 				EDECBCF62B03EB8F00AA66A0 /* PreferenceKey */,
 				ED5324B22AFD638E00817B3D /* Assets.xcassets */,
@@ -119,6 +148,24 @@
 				ED5324B52AFD638E00817B3D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDDACA492B0F9D4E0089C94D /* UnitTesting */ = {
+			isa = PBXGroup;
+			children = (
+				EDDACA4A2B0F9D620089C94D /* UnitTestingBootCampView.swift */,
+				EDDACA4C2B0F9F440089C94D /* UnitTestingViewModel.swift */,
+			);
+			path = UnitTesting;
+			sourceTree = "<group>";
+		};
+		EDDACA532B0FA5D00089C94D /* AdvancedLearning_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EDDACA542B0FA5D00089C94D /* AdvancedLearning_Tests.swift */,
+				EDDACA5B2B0FA8360089C94D /* UnitTestingBootCampViewModel_Tests.swift */,
+			);
+			path = AdvancedLearning_Tests;
 			sourceTree = "<group>";
 		};
 		EDE3866E2B0549410076837B /* CustomTabBar */ = {
@@ -163,6 +210,24 @@
 			productReference = ED5324AB2AFD638C00817B3D /* AdvancedLearning.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EDDACA512B0FA5D00089C94D /* AdvancedLearning_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDDACA582B0FA5D00089C94D /* Build configuration list for PBXNativeTarget "AdvancedLearning_Tests" */;
+			buildPhases = (
+				EDDACA4E2B0FA5D00089C94D /* Sources */,
+				EDDACA4F2B0FA5D00089C94D /* Frameworks */,
+				EDDACA502B0FA5D00089C94D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDDACA572B0FA5D00089C94D /* PBXTargetDependency */,
+			);
+			name = AdvancedLearning_Tests;
+			productName = AdvancedLearning_Tests;
+			productReference = EDDACA522B0FA5D00089C94D /* AdvancedLearning_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,6 +240,10 @@
 				TargetAttributes = {
 					ED5324AA2AFD638C00817B3D = {
 						CreatedOnToolsVersion = 15.0.1;
+					};
+					EDDACA512B0FA5D00089C94D = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = ED5324AA2AFD638C00817B3D;
 					};
 				};
 			};
@@ -192,6 +261,7 @@
 			projectRoot = "";
 			targets = (
 				ED5324AA2AFD638C00817B3D /* AdvancedLearning */,
+				EDDACA512B0FA5D00089C94D /* AdvancedLearning_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -203,6 +273,13 @@
 			files = (
 				ED5324B62AFD638E00817B3D /* Preview Assets.xcassets in Resources */,
 				ED5324B32AFD638E00817B3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDACA502B0FA5D00089C94D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,8 +302,10 @@
 				EDECBCFA2B03EEA000AA66A0 /* ScrollViewOffsetPreferenceKey.swift in Sources */,
 				ED1728FD2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift in Sources */,
 				ED0A88112B0267F50074A696 /* AnimatableDataBootCamp.swift in Sources */,
+				EDDACA4B2B0F9D620089C94D /* UnitTestingBootCampView.swift in Sources */,
 				EDE07BC12B0D1E1F0086E4E0 /* ProtocolsBootCamp.swift in Sources */,
 				EDECBCF32B03C3BF00AA66A0 /* ViewBuilderBootcamp.swift in Sources */,
+				EDDACA4D2B0F9F440089C94D /* UnitTestingViewModel.swift in Sources */,
 				EDE386782B05595C0076837B /* TabBarItem.swift in Sources */,
 				ED0A88132B026D350074A696 /* GenericsBootCamp.swift in Sources */,
 				ED5324AF2AFD638C00817B3D /* AdvancedLearningApp.swift in Sources */,
@@ -238,7 +317,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDDACA4E2B0FA5D00089C94D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDACA5C2B0FA8360089C94D /* UnitTestingBootCampViewModel_Tests.swift in Sources */,
+				EDDACA552B0FA5D00089C94D /* AdvancedLearning_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDDACA572B0FA5D00089C94D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5324AA2AFD638C00817B3D /* AdvancedLearning */;
+			targetProxy = EDDACA562B0FA5D00089C94D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		ED5324BC2AFD638E00817B3D /* Debug */ = {
@@ -418,6 +514,42 @@
 			};
 			name = Release;
 		};
+		EDDACA592B0FA5D00089C94D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU9APFQH4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.horevyinazar.AdvancedLearning-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedLearning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdvancedLearning";
+			};
+			name = Debug;
+		};
+		EDDACA5A2B0FA5D00089C94D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU9APFQH4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.horevyinazar.AdvancedLearning-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdvancedLearning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdvancedLearning";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -435,6 +567,15 @@
 			buildConfigurations = (
 				ED5324BF2AFD638E00817B3D /* Debug */,
 				ED5324C02AFD638E00817B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDDACA582B0FA5D00089C94D /* Build configuration list for PBXNativeTarget "AdvancedLearning_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDDACA592B0FA5D00089C94D /* Debug */,
+				EDDACA5A2B0FA5D00089C94D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
