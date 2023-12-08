@@ -20,6 +20,10 @@
 		ED57E7892AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57E7882AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift */; };
 		ED88E1722AFE7191007F7C8C /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */; };
 		EDA2AC802B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2AC7F2B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift */; };
+		EDB993912B23B98900B90990 /* UnitTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB993902B23B98900B90990 /* UnitTestingView.swift */; };
+		EDB993992B23BDCD00B90990 /* AdvancedLearning_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB993982B23BDCD00B90990 /* AdvancedLearning_UITests.swift */; };
+		EDB9939B2B23BDCD00B90990 /* AdvancedLearning_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB9939A2B23BDCD00B90990 /* AdvancedLearning_UITestsLaunchTests.swift */; };
+		EDB993A22B23BFBF00B90990 /* UITestingView_UITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB993A12B23BFBF00B90990 /* UITestingView_UITest.swift */; };
 		EDDACA4B2B0F9D620089C94D /* UnitTestingBootCampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDACA4A2B0F9D620089C94D /* UnitTestingBootCampView.swift */; };
 		EDDACA4D2B0F9F440089C94D /* UnitTestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDACA4C2B0F9F440089C94D /* UnitTestingViewModel.swift */; };
 		EDDACA552B0FA5D00089C94D /* AdvancedLearning_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDACA542B0FA5D00089C94D /* AdvancedLearning_Tests.swift */; };
@@ -38,6 +42,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		EDB9939C2B23BDCD00B90990 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5324A32AFD638C00817B3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5324AA2AFD638C00817B3D;
+			remoteInfo = AdvancedLearning;
+		};
 		EDDACA562B0FA5D00089C94D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ED5324A32AFD638C00817B3D /* Project object */;
@@ -62,6 +73,11 @@
 		ED57E7882AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeomteryEffectBootCamp.swift; sourceTree = "<group>"; };
 		ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 		EDA2AC7F2B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootCamp.swift; sourceTree = "<group>"; };
+		EDB993902B23B98900B90990 /* UnitTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingView.swift; sourceTree = "<group>"; };
+		EDB993962B23BDCD00B90990 /* AdvancedLearning_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedLearning_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB993982B23BDCD00B90990 /* AdvancedLearning_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearning_UITests.swift; sourceTree = "<group>"; };
+		EDB9939A2B23BDCD00B90990 /* AdvancedLearning_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearning_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EDB993A12B23BFBF00B90990 /* UITestingView_UITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingView_UITest.swift; sourceTree = "<group>"; };
 		EDDACA4A2B0F9D620089C94D /* UnitTestingBootCampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingBootCampView.swift; sourceTree = "<group>"; };
 		EDDACA4C2B0F9F440089C94D /* UnitTestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingViewModel.swift; sourceTree = "<group>"; };
 		EDDACA522B0FA5D00089C94D /* AdvancedLearning_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedLearning_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +104,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDB993932B23BDCD00B90990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDDACA4F2B0FA5D00089C94D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,6 +126,7 @@
 			children = (
 				ED5324AD2AFD638C00817B3D /* AdvancedLearning */,
 				EDDACA532B0FA5D00089C94D /* AdvancedLearning_Tests */,
+				EDB993972B23BDCD00B90990 /* AdvancedLearning_UITests */,
 				ED5324AC2AFD638C00817B3D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -112,6 +136,7 @@
 			children = (
 				ED5324AB2AFD638C00817B3D /* AdvancedLearning.app */,
 				EDDACA522B0FA5D00089C94D /* AdvancedLearning_Tests.xctest */,
+				EDB993962B23BDCD00B90990 /* AdvancedLearning_UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,9 +175,20 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		EDB993972B23BDCD00B90990 /* AdvancedLearning_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDB993982B23BDCD00B90990 /* AdvancedLearning_UITests.swift */,
+				EDB993A12B23BFBF00B90990 /* UITestingView_UITest.swift */,
+				EDB9939A2B23BDCD00B90990 /* AdvancedLearning_UITestsLaunchTests.swift */,
+			);
+			path = AdvancedLearning_UITests;
+			sourceTree = "<group>";
+		};
 		EDDACA492B0F9D4E0089C94D /* UnitTesting */ = {
 			isa = PBXGroup;
 			children = (
+				EDB993902B23B98900B90990 /* UnitTestingView.swift */,
 				EDDACA4A2B0F9D620089C94D /* UnitTestingBootCampView.swift */,
 				EDDACA4C2B0F9F440089C94D /* UnitTestingViewModel.swift */,
 			);
@@ -210,6 +246,24 @@
 			productReference = ED5324AB2AFD638C00817B3D /* AdvancedLearning.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EDB993952B23BDCD00B90990 /* AdvancedLearning_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDB9939E2B23BDCD00B90990 /* Build configuration list for PBXNativeTarget "AdvancedLearning_UITests" */;
+			buildPhases = (
+				EDB993922B23BDCD00B90990 /* Sources */,
+				EDB993932B23BDCD00B90990 /* Frameworks */,
+				EDB993942B23BDCD00B90990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDB9939D2B23BDCD00B90990 /* PBXTargetDependency */,
+			);
+			name = AdvancedLearning_UITests;
+			productName = AdvancedLearning_UITests;
+			productReference = EDB993962B23BDCD00B90990 /* AdvancedLearning_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		EDDACA512B0FA5D00089C94D /* AdvancedLearning_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDDACA582B0FA5D00089C94D /* Build configuration list for PBXNativeTarget "AdvancedLearning_Tests" */;
@@ -241,6 +295,10 @@
 					ED5324AA2AFD638C00817B3D = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
+					EDB993952B23BDCD00B90990 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = ED5324AA2AFD638C00817B3D;
+					};
 					EDDACA512B0FA5D00089C94D = {
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = ED5324AA2AFD638C00817B3D;
@@ -262,6 +320,7 @@
 			targets = (
 				ED5324AA2AFD638C00817B3D /* AdvancedLearning */,
 				EDDACA512B0FA5D00089C94D /* AdvancedLearning_Tests */,
+				EDB993952B23BDCD00B90990 /* AdvancedLearning_UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,6 +332,13 @@
 			files = (
 				ED5324B62AFD638E00817B3D /* Preview Assets.xcassets in Resources */,
 				ED5324B32AFD638E00817B3D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB993942B23BDCD00B90990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA2AC802B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift in Sources */,
+				EDB993912B23B98900B90990 /* UnitTestingView.swift in Sources */,
 				EDE386762B0555660076837B /* TabBarItemsPreferenceKey.swift in Sources */,
 				EDE386702B0549570076837B /* AppTabBarView.swift in Sources */,
 				EDECBCF52B03D42D00AA66A0 /* PreferenceKeyBootCamp.swift in Sources */,
@@ -317,6 +384,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDB993922B23BDCD00B90990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB9939B2B23BDCD00B90990 /* AdvancedLearning_UITestsLaunchTests.swift in Sources */,
+				EDB993A22B23BFBF00B90990 /* UITestingView_UITest.swift in Sources */,
+				EDB993992B23BDCD00B90990 /* AdvancedLearning_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EDDACA4E2B0FA5D00089C94D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,6 +406,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		EDB9939D2B23BDCD00B90990 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5324AA2AFD638C00817B3D /* AdvancedLearning */;
+			targetProxy = EDB9939C2B23BDCD00B90990 /* PBXContainerItemProxy */;
+		};
 		EDDACA572B0FA5D00089C94D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ED5324AA2AFD638C00817B3D /* AdvancedLearning */;
@@ -514,6 +596,40 @@
 			};
 			name = Release;
 		};
+		EDB9939F2B23BDCD00B90990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU9APFQH4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.horevyinazar.AdvancedLearning-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvancedLearning;
+			};
+			name = Debug;
+		};
+		EDB993A02B23BDCD00B90990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU9APFQH4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.horevyinazar.AdvancedLearning-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdvancedLearning;
+			};
+			name = Release;
+		};
 		EDDACA592B0FA5D00089C94D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -567,6 +683,15 @@
 			buildConfigurations = (
 				ED5324BF2AFD638E00817B3D /* Debug */,
 				ED5324C02AFD638E00817B3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDB9939E2B23BDCD00B90990 /* Build configuration list for PBXNativeTarget "AdvancedLearning_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB9939F2B23BDCD00B90990 /* Debug */,
+				EDB993A02B23BDCD00B90990 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
