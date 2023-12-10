@@ -10,7 +10,11 @@ import SwiftUI
 class UITestingBootCampViewModel: ObservableObject {
     let placeholderText: String = "Add your name..."
     @Published var textFieldText: String = ""
-    @Published var currentUserIsSignedIn: Bool = false
+    @Published var currentUserIsSignedIn: Bool
+    
+    init(currentUserIsSignedIn: Bool) {
+        self.currentUserIsSignedIn = currentUserIsSignedIn
+    }
     
     func signUpButtonPressed() {
         guard !textFieldText.isEmpty else { return }
@@ -20,7 +24,11 @@ class UITestingBootCampViewModel: ObservableObject {
 
 struct UnitTestingView: View {
     
-    @StateObject private var vm = UITestingBootCampViewModel()
+    @StateObject private var vm: UITestingBootCampViewModel
+    
+    init(currentUserIsSignedIn: Bool) {
+        _vm = StateObject(wrappedValue: UITestingBootCampViewModel(currentUserIsSignedIn: currentUserIsSignedIn))
+    }
     
     var body: some View {
         ZStack {
@@ -46,7 +54,7 @@ struct UnitTestingView: View {
 }
 
 #Preview {
-    UnitTestingView()
+    UnitTestingView(currentUserIsSignedIn: true)
 }
 
 extension UnitTestingView {
@@ -57,6 +65,7 @@ extension UnitTestingView {
                            .padding()
                            .background(Color.white)
                            .clipShape(.rect(cornerRadius: 10))
+                           .accessibilityIdentifier("SignUpTextField")
                        
                        Button(action: {
                            withAnimation(.spring()) {
@@ -70,7 +79,8 @@ extension UnitTestingView {
                                .foregroundStyle(Color.white)
                                .background(.blue)
                                .clipShape(.rect(cornerRadius: 10))
-                           
+                               .accessibilityIdentifier("SignUpButton")
+
                        })
                    }
     }
@@ -95,6 +105,7 @@ struct SignedInHomeView: View {
                         .background(.red)
                         .clipShape(.rect(cornerRadius: 10))
                 })
+                .accessibilityIdentifier("ShowAlertButton")
                 .alert("Welcome Alert", isPresented: $showAllert) {}
                 NavigationLink {
                     Text("Destination")
@@ -107,6 +118,7 @@ struct SignedInHomeView: View {
                         .background(.blue)
                         .clipShape(.rect(cornerRadius: 10))
                 }
+                //.accessibilityIdentifier("NavigationLinkDestination")
             })
             .padding()
             .navigationTitle("Welcome")

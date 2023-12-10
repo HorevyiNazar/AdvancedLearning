@@ -20,7 +20,7 @@
 		ED57E7892AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57E7882AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift */; };
 		ED88E1722AFE7191007F7C8C /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */; };
 		EDA2AC802B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2AC7F2B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift */; };
-		EDB993912B23B98900B90990 /* UnitTestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB993902B23B98900B90990 /* UnitTestingView.swift */; };
+		EDB993912B23B98900B90990 /* UITestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB993902B23B98900B90990 /* UITestingView.swift */; };
 		EDB993992B23BDCD00B90990 /* AdvancedLearning_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB993982B23BDCD00B90990 /* AdvancedLearning_UITests.swift */; };
 		EDB9939B2B23BDCD00B90990 /* AdvancedLearning_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB9939A2B23BDCD00B90990 /* AdvancedLearning_UITestsLaunchTests.swift */; };
 		EDB993A22B23BFBF00B90990 /* UITestingView_UITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB993A12B23BFBF00B90990 /* UITestingView_UITest.swift */; };
@@ -73,7 +73,7 @@
 		ED57E7882AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeomteryEffectBootCamp.swift; sourceTree = "<group>"; };
 		ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 		EDA2AC7F2B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootCamp.swift; sourceTree = "<group>"; };
-		EDB993902B23B98900B90990 /* UnitTestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestingView.swift; sourceTree = "<group>"; };
+		EDB993902B23B98900B90990 /* UITestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingView.swift; sourceTree = "<group>"; };
 		EDB993962B23BDCD00B90990 /* AdvancedLearning_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedLearning_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB993982B23BDCD00B90990 /* AdvancedLearning_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearning_UITests.swift; sourceTree = "<group>"; };
 		EDB9939A2B23BDCD00B90990 /* AdvancedLearning_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearning_UITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -188,7 +188,7 @@
 		EDDACA492B0F9D4E0089C94D /* UnitTesting */ = {
 			isa = PBXGroup;
 			children = (
-				EDB993902B23B98900B90990 /* UnitTestingView.swift */,
+				EDB993902B23B98900B90990 /* UITestingView.swift */,
 				EDDACA4A2B0F9D620089C94D /* UnitTestingBootCampView.swift */,
 				EDDACA4C2B0F9F440089C94D /* UnitTestingViewModel.swift */,
 			);
@@ -357,7 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDA2AC802B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift in Sources */,
-				EDB993912B23B98900B90990 /* UnitTestingView.swift in Sources */,
+				EDB993912B23B98900B90990 /* UITestingView.swift in Sources */,
 				EDE386762B0555660076837B /* TabBarItemsPreferenceKey.swift in Sources */,
 				EDE386702B0549570076837B /* AppTabBarView.swift in Sources */,
 				EDECBCF52B03D42D00AA66A0 /* PreferenceKeyBootCamp.swift in Sources */,
