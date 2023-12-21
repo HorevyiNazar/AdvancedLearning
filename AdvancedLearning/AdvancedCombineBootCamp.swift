@@ -21,7 +21,7 @@ class AdvancedCombineDataService {
     
     private func publishFakeData() {
         
-        let items: [Int] = Array(0..<11)
+        let items: [Int] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
         
         for x in items.indices {
             DispatchQueue.main.asyncAfter(deadline: .now() + Double(x)) {
@@ -90,12 +90,65 @@ class AdvancedCombineBootCampViewModel: ObservableObject {
          */
         
         // MARK: Math operations
+        /*
+        //            .max()
+//            .max(by: { $0 < $1 })
+//            .tryMax(by: )
+//            .min()
+//            .min(by: )
+//            .tryMin(by: )
+        */
+        
+        // MARK: Filterting / Reducing Operations
+        /*
+//            .map({ String($0) })
+//            .tryMap({ int in
+//                if int == 5 {
+//                    throw URLError(.badServerResponse)
+//                }
+//                return String(int)
+//            })
+//            .compactMap({ Int in
+//                if Int == 5 {
+//                    return nil
+//                }
+//                return String(Int)
+//            })
+//            .tryCompactMap()
+//            .filter({ ($0 > 3) && ($0 < 7) })
+//            .tryFilter()
+//            .removeDuplicates()
+//            .removeDuplicates(by: { $0 == $1 })
+//            .tryRemoveDuplicates(by: )
+//            .replaceNil(with: 5)
+//            .replaceEmpty(with: [])
+//            .replaceError(with: "DEAFUALT VALUE")
+//            .scan(0, { $0 + $1 }) // .scan(0, +)
+//            .tryScan(0, )
+//            .reduce(0, +)
+//            .allSatisfy({ $0 < 50 })
+//            .tryAllSatisfy()
+        */
+        
+        // MARK: Timing operations
+        /*
+//            .debounce(for: 1, scheduler: DispatchQueue.main)
+//            .delay(for: 2, scheduler: DispatchQueue.main)
+//            .measureInterval(using: DispatchQueue.main)
+//            .throttle(for: 5, scheduler: DispatchQueue.main, latest: true)
+//            .retry(3)
+//            .timeout(0.75, scheduler: DispatchQueue.main)
+        */
+        
+        // MARK: Multiple Publishers / Subscribers
+        
+        
         
             .map({ String($0) })
             .sink { completion in
                 switch completion {
                 case .finished: break
-                case .failure(let error): self.error = "\(error.localizedDescription)"
+                case .failure(let error): self.error = "ERROR: \(error.localizedDescription)"
                 }
             } receiveValue: { [weak self] returnedValue in
                 self?.data.append(returnedValue)
