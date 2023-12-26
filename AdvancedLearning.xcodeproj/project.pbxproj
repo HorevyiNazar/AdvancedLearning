@@ -21,6 +21,7 @@
 		ED57E7892AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED57E7882AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift */; };
 		ED80A2372B2B625A00162781 /* AdvancedCombineBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80A2362B2B625A00162781 /* AdvancedCombineBootCamp.swift */; };
 		ED88E1722AFE7191007F7C8C /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */; };
+		EDA1238D2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1238C2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift */; };
 		EDA2AC802B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2AC7F2B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift */; };
 		EDB993912B23B98900B90990 /* UITestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB993902B23B98900B90990 /* UITestingView.swift */; };
 		EDB993992B23BDCD00B90990 /* AdvancedLearning_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB993982B23BDCD00B90990 /* AdvancedLearning_UITests.swift */; };
@@ -76,6 +77,7 @@
 		ED57E7882AFFCB180003D3D5 /* MatchedGeomteryEffectBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeomteryEffectBootCamp.swift; sourceTree = "<group>"; };
 		ED80A2362B2B625A00162781 /* AdvancedCombineBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombineBootCamp.swift; sourceTree = "<group>"; };
 		ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
+		EDA1238C2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewBootCamp.swift; sourceTree = "<group>"; };
 		EDA2AC7F2B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootCamp.swift; sourceTree = "<group>"; };
 		EDB993902B23B98900B90990 /* UITestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingView.swift; sourceTree = "<group>"; };
 		EDB993962B23BDCD00B90990 /* AdvancedLearning_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedLearning_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -164,6 +166,7 @@
 				ED4858B12B0E6ADB001A9844 /* DependencyInjectionBootCamp.swift */,
 				ED80A2362B2B625A00162781 /* AdvancedCombineBootCamp.swift */,
 				ED4449092B39BF6F006E5062 /* FuturesBootCamp.swift */,
+				EDA1238C2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift */,
 				EDDACA492B0F9D4E0089C94D /* UnitTesting */,
 				EDE3866E2B0549410076837B /* CustomTabBar */,
 				EDECBCF62B03EB8F00AA66A0 /* PreferenceKey */,
@@ -374,6 +377,7 @@
 				EDE386722B054AA30076837B /* CustomTabBarView.swift in Sources */,
 				EDECBCFA2B03EEA000AA66A0 /* ScrollViewOffsetPreferenceKey.swift in Sources */,
 				ED1728FD2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift in Sources */,
+				EDA1238D2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift in Sources */,
 				ED80A2372B2B625A00162781 /* AdvancedCombineBootCamp.swift in Sources */,
 				ED0A88112B0267F50074A696 /* AnimatableDataBootCamp.swift in Sources */,
 				EDDACA4B2B0F9D620089C94D /* UnitTestingBootCampView.swift in Sources */,
