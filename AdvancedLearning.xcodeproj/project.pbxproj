@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		ED0A88112B0267F50074A696 /* AnimatableDataBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A88102B0267F50074A696 /* AnimatableDataBootCamp.swift */; };
 		ED0A88132B026D350074A696 /* GenericsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0A88122B026D350074A696 /* GenericsBootCamp.swift */; };
+		ED0F47222B3D96C6008AB64B /* CustomBindingBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0F47212B3D96C6008AB64B /* CustomBindingBootCamp.swift */; };
 		ED1728FD2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1728FC2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift */; };
 		ED18780B2B00F37D007C20D4 /* CustomShapesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18780A2B00F37D007C20D4 /* CustomShapesBootCamp.swift */; };
 		ED18780D2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18780C2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift */; };
@@ -64,6 +65,7 @@
 /* Begin PBXFileReference section */
 		ED0A88102B0267F50074A696 /* AnimatableDataBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableDataBootCamp.swift; sourceTree = "<group>"; };
 		ED0A88122B026D350074A696 /* GenericsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsBootCamp.swift; sourceTree = "<group>"; };
+		ED0F47212B3D96C6008AB64B /* CustomBindingBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindingBootCamp.swift; sourceTree = "<group>"; };
 		ED1728FC2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootCamp.swift; sourceTree = "<group>"; };
 		ED18780A2B00F37D007C20D4 /* CustomShapesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootCamp.swift; sourceTree = "<group>"; };
 		ED18780C2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootCamp.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				ED80A2362B2B625A00162781 /* AdvancedCombineBootCamp.swift */,
 				ED4449092B39BF6F006E5062 /* FuturesBootCamp.swift */,
 				EDA1238C2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift */,
+				ED0F47212B3D96C6008AB64B /* CustomBindingBootCamp.swift */,
 				EDDACA492B0F9D4E0089C94D /* UnitTesting */,
 				EDE3866E2B0549410076837B /* CustomTabBar */,
 				EDECBCF62B03EB8F00AA66A0 /* PreferenceKey */,
@@ -380,6 +383,7 @@
 				EDA1238D2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift in Sources */,
 				ED80A2372B2B625A00162781 /* AdvancedCombineBootCamp.swift in Sources */,
 				ED0A88112B0267F50074A696 /* AnimatableDataBootCamp.swift in Sources */,
+				ED0F47222B3D96C6008AB64B /* CustomBindingBootCamp.swift in Sources */,
 				EDDACA4B2B0F9D620089C94D /* UnitTestingBootCampView.swift in Sources */,
 				EDE07BC12B0D1E1F0086E4E0 /* ProtocolsBootCamp.swift in Sources */,
 				EDECBCF32B03C3BF00AA66A0 /* ViewBuilderBootcamp.swift in Sources */,
