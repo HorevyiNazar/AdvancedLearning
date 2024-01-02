@@ -24,6 +24,7 @@
 		ED88E1722AFE7191007F7C8C /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */; };
 		EDA1238D2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1238C2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift */; };
 		EDA2AC802B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2AC7F2B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift */; };
+		EDA753312B444CF0001C5A66 /* ErrorAlertBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA753302B444CF0001C5A66 /* ErrorAlertBootCamp.swift */; };
 		EDB993912B23B98900B90990 /* UITestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB993902B23B98900B90990 /* UITestingView.swift */; };
 		EDB993992B23BDCD00B90990 /* AdvancedLearning_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB993982B23BDCD00B90990 /* AdvancedLearning_UITests.swift */; };
 		EDB9939B2B23BDCD00B90990 /* AdvancedLearning_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB9939A2B23BDCD00B90990 /* AdvancedLearning_UITestsLaunchTests.swift */; };
@@ -81,6 +82,7 @@
 		ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 		EDA1238C2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewBootCamp.swift; sourceTree = "<group>"; };
 		EDA2AC7F2B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerRepresentableBootCamp.swift; sourceTree = "<group>"; };
+		EDA753302B444CF0001C5A66 /* ErrorAlertBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlertBootCamp.swift; sourceTree = "<group>"; };
 		EDB993902B23B98900B90990 /* UITestingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingView.swift; sourceTree = "<group>"; };
 		EDB993962B23BDCD00B90990 /* AdvancedLearning_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedLearning_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB993982B23BDCD00B90990 /* AdvancedLearning_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearning_UITests.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				ED4449092B39BF6F006E5062 /* FuturesBootCamp.swift */,
 				EDA1238C2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift */,
 				ED0F47212B3D96C6008AB64B /* CustomBindingBootCamp.swift */,
+				EDA753302B444CF0001C5A66 /* ErrorAlertBootCamp.swift */,
 				EDDACA492B0F9D4E0089C94D /* UnitTesting */,
 				EDE3866E2B0549410076837B /* CustomTabBar */,
 				EDECBCF62B03EB8F00AA66A0 /* PreferenceKey */,
@@ -386,6 +389,7 @@
 				ED0F47222B3D96C6008AB64B /* CustomBindingBootCamp.swift in Sources */,
 				EDDACA4B2B0F9D620089C94D /* UnitTestingBootCampView.swift in Sources */,
 				EDE07BC12B0D1E1F0086E4E0 /* ProtocolsBootCamp.swift in Sources */,
+				EDA753312B444CF0001C5A66 /* ErrorAlertBootCamp.swift in Sources */,
 				EDECBCF32B03C3BF00AA66A0 /* ViewBuilderBootcamp.swift in Sources */,
 				EDDACA4D2B0F9F440089C94D /* UnitTestingViewModel.swift in Sources */,
 				ED44490A2B39BF6F006E5062 /* FuturesBootCamp.swift in Sources */,
