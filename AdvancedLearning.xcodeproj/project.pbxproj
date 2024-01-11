@@ -15,6 +15,7 @@
 		ED18780D2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18780C2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift */; };
 		ED44490A2B39BF6F006E5062 /* FuturesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4449092B39BF6F006E5062 /* FuturesBootCamp.swift */; };
 		ED4858B22B0E6ADB001A9844 /* DependencyInjectionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4858B12B0E6ADB001A9844 /* DependencyInjectionBootCamp.swift */; };
+		ED4C849D2B50223E00650418 /* KeypathsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C849C2B50223E00650418 /* KeypathsBootCamp.swift */; };
 		ED5324AF2AFD638C00817B3D /* AdvancedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5324AE2AFD638C00817B3D /* AdvancedLearningApp.swift */; };
 		ED5324B32AFD638E00817B3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5324B22AFD638E00817B3D /* Assets.xcassets */; };
 		ED5324B62AFD638E00817B3D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5324B52AFD638E00817B3D /* Preview Assets.xcassets */; };
@@ -72,6 +73,7 @@
 		ED18780C2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootCamp.swift; sourceTree = "<group>"; };
 		ED4449092B39BF6F006E5062 /* FuturesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootCamp.swift; sourceTree = "<group>"; };
 		ED4858B12B0E6ADB001A9844 /* DependencyInjectionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootCamp.swift; sourceTree = "<group>"; };
+		ED4C849C2B50223E00650418 /* KeypathsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypathsBootCamp.swift; sourceTree = "<group>"; };
 		ED5324AB2AFD638C00817B3D /* AdvancedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdvancedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED5324AE2AFD638C00817B3D /* AdvancedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedLearningApp.swift; sourceTree = "<group>"; };
 		ED5324B22AFD638E00817B3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				EDA1238C2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift */,
 				ED0F47212B3D96C6008AB64B /* CustomBindingBootCamp.swift */,
 				EDA753302B444CF0001C5A66 /* ErrorAlertBootCamp.swift */,
+				ED4C849C2B50223E00650418 /* KeypathsBootCamp.swift */,
 				EDDACA492B0F9D4E0089C94D /* UnitTesting */,
 				EDE3866E2B0549410076837B /* CustomTabBar */,
 				EDECBCF62B03EB8F00AA66A0 /* PreferenceKey */,
@@ -392,6 +395,7 @@
 				EDA753312B444CF0001C5A66 /* ErrorAlertBootCamp.swift in Sources */,
 				EDECBCF32B03C3BF00AA66A0 /* ViewBuilderBootcamp.swift in Sources */,
 				EDDACA4D2B0F9F440089C94D /* UnitTestingViewModel.swift in Sources */,
+				ED4C849D2B50223E00650418 /* KeypathsBootCamp.swift in Sources */,
 				ED44490A2B39BF6F006E5062 /* FuturesBootCamp.swift in Sources */,
 				EDE386782B05595C0076837B /* TabBarItem.swift in Sources */,
 				ED0A88132B026D350074A696 /* GenericsBootCamp.swift in Sources */,
