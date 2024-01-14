@@ -13,6 +13,7 @@
 		ED1728FD2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1728FC2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift */; };
 		ED18780B2B00F37D007C20D4 /* CustomShapesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18780A2B00F37D007C20D4 /* CustomShapesBootCamp.swift */; };
 		ED18780D2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18780C2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift */; };
+		ED30329D2B54013300135382 /* PropertyWrapper2BootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30329C2B54013300135382 /* PropertyWrapper2BootCamp.swift */; };
 		ED44490A2B39BF6F006E5062 /* FuturesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4449092B39BF6F006E5062 /* FuturesBootCamp.swift */; };
 		ED4858B22B0E6ADB001A9844 /* DependencyInjectionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4858B12B0E6ADB001A9844 /* DependencyInjectionBootCamp.swift */; };
 		ED4C849D2B50223E00650418 /* KeypathsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C849C2B50223E00650418 /* KeypathsBootCamp.swift */; };
@@ -72,6 +73,7 @@
 		ED1728FC2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootCamp.swift; sourceTree = "<group>"; };
 		ED18780A2B00F37D007C20D4 /* CustomShapesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootCamp.swift; sourceTree = "<group>"; };
 		ED18780C2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootCamp.swift; sourceTree = "<group>"; };
+		ED30329C2B54013300135382 /* PropertyWrapper2BootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapper2BootCamp.swift; sourceTree = "<group>"; };
 		ED4449092B39BF6F006E5062 /* FuturesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootCamp.swift; sourceTree = "<group>"; };
 		ED4858B12B0E6ADB001A9844 /* DependencyInjectionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootCamp.swift; sourceTree = "<group>"; };
 		ED4C849C2B50223E00650418 /* KeypathsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypathsBootCamp.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				EDA753302B444CF0001C5A66 /* ErrorAlertBootCamp.swift */,
 				ED4C849C2B50223E00650418 /* KeypathsBootCamp.swift */,
 				ED9117092B50482800DD2C5C /* PropertyWrapperBootCamp.swift */,
+				ED30329C2B54013300135382 /* PropertyWrapper2BootCamp.swift */,
 				EDDACA492B0F9D4E0089C94D /* UnitTesting */,
 				EDE3866E2B0549410076837B /* CustomTabBar */,
 				EDECBCF62B03EB8F00AA66A0 /* PreferenceKey */,
@@ -391,6 +394,7 @@
 				ED1728FD2AFFC07600A76DA3 /* AnyTransitionBootCamp.swift in Sources */,
 				EDA1238D2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift in Sources */,
 				ED80A2372B2B625A00162781 /* AdvancedCombineBootCamp.swift in Sources */,
+				ED30329D2B54013300135382 /* PropertyWrapper2BootCamp.swift in Sources */,
 				ED0A88112B0267F50074A696 /* AnimatableDataBootCamp.swift in Sources */,
 				ED0F47222B3D96C6008AB64B /* CustomBindingBootCamp.swift in Sources */,
 				EDDACA4B2B0F9D620089C94D /* UnitTestingBootCampView.swift in Sources */,
