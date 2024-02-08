@@ -14,6 +14,7 @@
 		ED18780B2B00F37D007C20D4 /* CustomShapesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18780A2B00F37D007C20D4 /* CustomShapesBootCamp.swift */; };
 		ED18780D2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18780C2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift */; };
 		ED30329D2B54013300135382 /* PropertyWrapper2BootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED30329C2B54013300135382 /* PropertyWrapper2BootCamp.swift */; };
+		ED31DA592B75457900FE1FF4 /* TaskBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED31DA582B75457900FE1FF4 /* TaskBootCamp.swift */; };
 		ED44490A2B39BF6F006E5062 /* FuturesBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4449092B39BF6F006E5062 /* FuturesBootCamp.swift */; };
 		ED4858B22B0E6ADB001A9844 /* DependencyInjectionBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4858B12B0E6ADB001A9844 /* DependencyInjectionBootCamp.swift */; };
 		ED4C849D2B50223E00650418 /* KeypathsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4C849C2B50223E00650418 /* KeypathsBootCamp.swift */; };
@@ -75,6 +76,7 @@
 		ED18780A2B00F37D007C20D4 /* CustomShapesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootCamp.swift; sourceTree = "<group>"; };
 		ED18780C2B00F9C0007C20D4 /* CustomCurvesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootCamp.swift; sourceTree = "<group>"; };
 		ED30329C2B54013300135382 /* PropertyWrapper2BootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapper2BootCamp.swift; sourceTree = "<group>"; };
+		ED31DA582B75457900FE1FF4 /* TaskBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootCamp.swift; sourceTree = "<group>"; };
 		ED4449092B39BF6F006E5062 /* FuturesBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturesBootCamp.swift; sourceTree = "<group>"; };
 		ED4858B12B0E6ADB001A9844 /* DependencyInjectionBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionBootCamp.swift; sourceTree = "<group>"; };
 		ED4C849C2B50223E00650418 /* KeypathsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypathsBootCamp.swift; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				ED9117092B50482800DD2C5C /* PropertyWrapperBootCamp.swift */,
 				ED30329C2B54013300135382 /* PropertyWrapper2BootCamp.swift */,
 				ED82F3A02B56E9D7005C4623 /* SubscriptsBootCamp.swift */,
+				ED31DA582B75457900FE1FF4 /* TaskBootCamp.swift */,
 				EDDACA492B0F9D4E0089C94D /* UnitTesting */,
 				EDE3866E2B0549410076837B /* CustomTabBar */,
 				EDECBCF62B03EB8F00AA66A0 /* PreferenceKey */,
@@ -383,6 +386,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED31DA592B75457900FE1FF4 /* TaskBootCamp.swift in Sources */,
 				EDA2AC802B0BB53E000C5301 /* UIViewControllerRepresentableBootCamp.swift in Sources */,
 				EDB993912B23B98900B90990 /* UITestingView.swift in Sources */,
 				EDE386762B0555660076837B /* TabBarItemsPreferenceKey.swift in Sources */,
