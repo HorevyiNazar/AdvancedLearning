@@ -24,7 +24,7 @@ struct AdvancedLearningApp: App {
 
     var body: some Scene {
         WindowGroup {
-            PropertyWrapper2BootCamp()
+            ActorsBootCamp()
         }
     }
 }
