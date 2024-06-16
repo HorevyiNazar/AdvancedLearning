@@ -26,6 +26,7 @@
 		ED80A2372B2B625A00162781 /* AdvancedCombineBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80A2362B2B625A00162781 /* AdvancedCombineBootCamp.swift */; };
 		ED82F3A12B56E9D7005C4623 /* SubscriptsBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED82F3A02B56E9D7005C4623 /* SubscriptsBootCamp.swift */; };
 		ED88E1722AFE7191007F7C8C /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */; };
+		ED8B148D2C1F4391001E9D8C /* SendableBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8B148C2C1F4391001E9D8C /* SendableBootCamp.swift */; };
 		ED91170A2B50482800DD2C5C /* PropertyWrapperBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9117092B50482800DD2C5C /* PropertyWrapperBootCamp.swift */; };
 		ED924CB92BA5AB9C00C3504C /* TaskGroupBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED924CB82BA5AB9C00C3504C /* TaskGroupBootCamp.swift */; };
 		EDA1238D2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA1238C2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift */; };
@@ -94,6 +95,7 @@
 		ED80A2362B2B625A00162781 /* AdvancedCombineBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvancedCombineBootCamp.swift; sourceTree = "<group>"; };
 		ED82F3A02B56E9D7005C4623 /* SubscriptsBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptsBootCamp.swift; sourceTree = "<group>"; };
 		ED88E1712AFE7191007F7C8C /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
+		ED8B148C2C1F4391001E9D8C /* SendableBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableBootCamp.swift; sourceTree = "<group>"; };
 		ED9117092B50482800DD2C5C /* PropertyWrapperBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperBootCamp.swift; sourceTree = "<group>"; };
 		ED924CB82BA5AB9C00C3504C /* TaskGroupBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootCamp.swift; sourceTree = "<group>"; };
 		EDA1238C2B3B2F7800E7AC3B /* TimelineViewBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewBootCamp.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				EDC9121E2BB2E3FF00570211 /* CheckedContinuationBootCamp.swift */,
 				EDADCE362BC577BD002549FA /* ActorsBootCamp.swift */,
 				EDD705B52BCBF93E00B440AD /* GlobalActorsBootCamp.swift */,
+				ED8B148C2C1F4391001E9D8C /* SendableBootCamp.swift */,
 				EDDACA492B0F9D4E0089C94D /* UnitTesting */,
 				EDE3866E2B0549410076837B /* CustomTabBar */,
 				EDECBCF62B03EB8F00AA66A0 /* PreferenceKey */,
@@ -432,6 +435,7 @@
 				ED44490A2B39BF6F006E5062 /* FuturesBootCamp.swift in Sources */,
 				EDE386782B05595C0076837B /* TabBarItem.swift in Sources */,
 				ED82F3A12B56E9D7005C4623 /* SubscriptsBootCamp.swift in Sources */,
+				ED8B148D2C1F4391001E9D8C /* SendableBootCamp.swift in Sources */,
 				ED0A88132B026D350074A696 /* GenericsBootCamp.swift in Sources */,
 				EDC9121F2BB2E3FF00570211 /* CheckedContinuationBootCamp.swift in Sources */,
 				ED5324AF2AFD638C00817B3D /* AdvancedLearningApp.swift in Sources */,
